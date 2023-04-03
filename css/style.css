@@ -1280,20 +1280,17 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   gap: 3.75rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.content-editors__bottom-image img {
-  width: 37.5rem;
+.content-editors__bottom-image img:first-child {
+  width: 16.875rem;
   height: 16.875rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.content-editors__bottom-image img:first-child {
-  width: 16.875rem;
+.content-editors__bottom-image img:last-child {
+  width: 37.5rem;
   height: 16.875rem;
   -o-object-fit: cover;
      object-fit: cover;
